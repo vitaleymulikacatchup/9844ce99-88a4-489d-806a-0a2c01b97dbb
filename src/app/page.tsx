@@ -12,7 +12,6 @@ export default function Home() {
     <SiteThemeProvider theme={{ styleVariant: 'funAndTrendy', colorTemplate: 2, textAnimation: 'slide' }}>
       <NavbarLayoutFloatingInline
         logoSrc="/images/logo.svg"
-        logoAlt="DogMemCoin"
         navItems={[ { name: 'Hero', id: 'hero' }, { name: 'About', id: 'about' }, { name: 'How to Buy', id: 'how-to-buy' }, { name: 'Tokenomics', id: 'tokenomics' }, { name: 'Footer', id: 'footer' } ]}
         buttonText="Get MEME"
         onButtonClick={() => alert('Get started')} 
